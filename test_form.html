@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test Form</title>
+</head>
+<body>
+<form action="" id="dlp_test" method="POST" enctype="multipart/form-data">
+  <fieldset>
+    <legend>POST Testing Form</legend>
+    <p>
+        <label for="input_1">Sensitivity Markers</label>
+        <br>
+        <input name="Sensitivity Markers" id="input_1" size=100
+             value="This is some highly confidential information I have pasted into a web form."/>
+    </p>
+    <p>
+        <label for="input_2">National Insurance Numbers</label>
+        <br>
+        <input name="National Insurance Numbers" id="input_2" size=100
+             value="AB 11 11 11 A,AB222222B|AB 33 33 22 C" />
+    </p>
+    <p>
+        <label for="input_3">Credit Card Numbers</label>
+        <br>
+        <textarea class="text" rows="20" cols="100" name="Credit Card Numbers" id="input_3" form="dlp_test">Never upload credit card numbers such as 5518901610392014;5499966448997592;5232347976547582 or 4532033899614507%4117427610820869%4556355637812775.</textarea>
+    </p>
+      <p>
+          <input type="submit" value="Submit" />
+      </p>
+  </fieldset>
+</form>
+
+</body>
+</html>
