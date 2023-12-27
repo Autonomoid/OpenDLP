@@ -1,3 +1,8 @@
+This project was created as an exercise/project for people wanting to learn python.
+
+You will create a web proxy that will act as a basic DLP tool. It will uses regex to detect and block web POSTs that contain specific patterns or keywords.
+You will also implement allow lists and deny lists that control which domains can be accessed via the web proxy.
+
 0. Launch main.py
 
 1. Start a simple web server to server test_form.html:
